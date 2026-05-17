@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header name={blog.name} />
       <About image={blog.image} about={blog.about} />
-      <ArticleList posts={blog.posts} />
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
